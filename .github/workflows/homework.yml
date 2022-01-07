@@ -11,7 +11,7 @@ jobs:
       - name: Checkout the repository
         uses: actions/checkout@v2
         with:
-          repository: codeschooluz/string_indexing_test
+          repository: codeschooluz/string_methods_test
           token: ${{secrets.TEST_KEY}}
           path: test
       - name: Install dependencies
