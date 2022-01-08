@@ -7,4 +7,7 @@ def main(s):
         int: answer
     """
     
-    return
+    s=str(s)
+    answer=s.count('a')
+    return answer
+print(main('adadadx565cx'))
