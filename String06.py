@@ -6,5 +6,7 @@ def main(s):
     Returns:
         bool: answer
     """
-    
-    return
+    s=str(s)
+    answer=s.isnumeric()
+    return answer
+print(main('937249822a3'))
