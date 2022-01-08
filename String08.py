@@ -7,4 +7,7 @@ def main(s):
         bool: answer
     """
     
-    return
+    s=str(s)
+    answer=s.isupper()
+    return answer
+print(main('SDFJsSLDFKJS'))
