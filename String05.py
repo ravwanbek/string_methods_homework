@@ -6,5 +6,7 @@ def main(s):
     Returns:
         str: answer
     """
-    
-    return
+    s=str(s)
+    answer=s.capitalize()
+    return answer
+print(main('assalomu alaykum'))
