@@ -6,5 +6,7 @@ def main(s):
     Returns:
         str: answer
     """
-    
-    return
+    s=str(s)
+    answer=s.upper()
+    return answer
+print(main('assalomu alaykum hurmatli mehmonlar'))
