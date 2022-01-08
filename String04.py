@@ -6,5 +6,7 @@ def main(s):
     Returns:
         bool: answer
     """
-    
-    return
+    s=str(s)
+    answer=s.islower()
+    return answer
+print(main('assalomu alayKum'))
